@@ -1,0 +1,139 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  padding-top: 3rem;
+  padding-left: 1rem;
+  background-color: #000000; 
+  /*background-position: center;*/
+}
+
+canvas {
+  border-radius: 15px;
+  box-shadow: #ffffff 0 0px 20px; 
+}
+
+
+/* move menu-list to the right of canvas */
+.menu-list {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 22%;
+  height: 760px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+  background-color: #000000;
+  /* background-color: #0a0e31;  */
+  margin-top: 3rem;
+  margin-right: 1rem;
+  border-radius: 15px;
+  box-shadow: #ffffff 0 0px 20px;
+  
+}
+
+/*remove marker from list items*/
+.menu-list li {
+  list-style: none;
+}
+
+
+/* add space to all menu-list items */
+.menu-list li {
+  margin-bottom: 7rem;
+}
+
+/* change the font of the buttons */
+.menu-list li button {
+  font-weight: 600;
+  font-size: 1.5rem;
+  font-family: 'Sequel';
+  color: rgba(255, 255, 255, 0.792);
+}
+
+
+.refresh-button img {
+  width: 30px;
+  height: 30px;
+  margin-left: 0px;
+  margin-top: 8px;
+}
+
+/* move refresh-buttin button to directly beside play-button */
+.refresh-button {
+  cursor: pointer;
+  font-size: 1rem;
+  border: none;
+  border-radius: 25px;
+  outline: none;
+  /*apply background colour to all buttons that is slighly see through*/
+  background-color: rgb(52, 52, 52);
+  transition: all 0.3s ease-in-out;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 80px;
+  height: 70px;
+  margin-bottom: 2rem;
+  margin-left: 16rem;
+  margin-right: 1rem;
+}
+
+.refresh-button:hover {
+  transform: scale(1.1);
+  background-color: rgba(255, 166, 0, 0.9);
+  box-shadow: none;
+  color: rgb(0, 0, 0);
+}
+
+.refresh-button:active {
+  transform: scale(0.9);
+  background-color: rgba(140, 255, 0, 0.9);
+  box-shadow: none;
+  color: black;
+}
+
+
+.rangeSlider {
+  /* display: block; */
+  font-family: "Dosis", Helvetica, Arial, sans-serif;
+  color: #ffffff;
+  padding-top: 0px;
+}
+
+.counter {
+
+  text-align: center;
+  font-weight: bold;
+  font-size: 5em;
+  width: 300px; 
+  height: 100px;
+  line-height: 60px;
+  /* margin: 40px auto; */
+}
+
+.stringX {
+  text-align: center;
+  font-weight: bold;
+  font-size: 5em;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #ffffff;
+  padding-top: 0px;
+}
+
+.slider {
+  width: 300px;
+  margin: 40px auto;
+}
+
+
+
+

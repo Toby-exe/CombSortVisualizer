@@ -1,0 +1,59 @@
+#time {
+    margin-right: 28rem;
+   }
+   
+   .timer-grid {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-template-rows: 1fr 1fr;
+     grid-gap: 1rem;
+     margin-top: 1rem;
+
+   }
+   
+   .digit-mm {
+     font-family: Dosis, sans-serif;
+     font-weight: 600;
+     font-size: 78px;
+     color: rgba(255, 255, 255, 0.579);
+     position: absolute;
+     margin-left: 75px;
+   }
+   
+   .digit-ss {
+     font-family: Dosis, sans-serif;
+     font-weight: 600;
+     font-size: 78px;
+     color: rgba(255, 255, 255, 0.579);
+     position: absolute;
+     margin-left: 190px;
+   }
+   
+   .digit-ms {
+     font-family: Dosis, sans-serif;
+     font-weight: 600;
+     font-size: 78px;
+     color: rgba(255, 255, 255, 0.579);
+     position: absolute;
+     margin-left: 305px;
+   }
+   
+   .colon1 {
+     font-family: Dosis, sans-serif;
+     font-weight: 600;
+     font-size: 78px;
+     color: rgba(255, 255, 255, 0.579);
+     position: absolute;
+     margin-left: 167px;
+     margin-top: -10px;
+   }
+   
+   .colon2 {
+     font-family: Dosis, sans-serif;
+     font-weight: 600;
+     font-size: 78px;
+     color: rgba(255, 255, 255, 0.579);
+     position: absolute;
+     margin-left: 280px;
+     margin-top: -10px;
+   }

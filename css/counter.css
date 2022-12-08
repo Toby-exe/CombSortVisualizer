@@ -1,0 +1,81 @@
+/*move .time further up*/
+#gap-counter {
+    color: white;
+    font-size: 1.9rem;
+    margin-right: 90px;
+    font-family: Dosis, sans-serif;
+    color:rgba(255, 255, 255, 0.579);
+  }
+  #swap-counter {
+    color: white;
+    font-family: Dosis, sans-serif;
+    font-size: 1.9rem;
+    color:rgba(255, 255, 255, 0.579);
+  }
+  #comparison-counter {
+    color: white;
+    font-family: Dosis, sans-serif;
+    font-size: 1.9rem;
+    margin-left: 80px;
+    color:rgba(255, 255, 255, 0.579);
+  }
+  
+  .gap-msg {
+    color:rgba(255, 255, 255, 0.579);
+    font-family: Helvetica, sans-serif, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    /* margin-right: 170px;
+    padding-right: 100px; */
+  }
+  
+  .swap-msg {
+    color:rgba(255, 255, 255, 0.579);
+    font-family: Helvetica, sans-serif, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    /* margin-right: 140px;
+    padding-right: 100px; */
+  }
+  
+  .compare-msg {
+    color:rgba(255, 255, 255, 0.579);
+    font-family: Helvetica, sans-serif, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    /* margin-right: 140px;
+    padding-right: 100px; */
+  }
+
+  /* rotate gap-msg */
+    .gap-msg {
+        transform: rotate(90deg);
+        position: absolute;
+        margin-left: 10px;
+        margin-top: 26px;
+
+    }
+    .swap-msg {
+        transform: rotate(90deg);
+        position: absolute;
+        margin-left: -7px;
+        margin-top: 45px;
+    }
+    .compare-msg {
+        transform: rotate(90deg);
+        position: absolute;
+        margin-left: 71px;
+        margin-top: 45px;
+    }
+    
+
+    .counters {
+       margin-right: 30px;
+       /*move up*/
+       margin-top: -20px;
+    }
+
+
+   
+
+  

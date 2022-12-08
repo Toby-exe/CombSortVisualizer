@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Saber Sort</title>
+
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/timmer.css">
+  <link rel="stylesheet" type="text/css" href="css/playbutton.css">
+  <link rel="stylesheet" type="text/css" href="css/counter.css">
+  <link href="https://fonts.cdnfonts.com/css/sequel" rel="stylesheet">
+
+  <script src="src/barClass.js"></script>
+  <script src="src/main.js"></script>
+  <script src="src/sort.js"></script>
+  <script src="src/utils.js"></script>
+  <script src="libraries/p5.min.js"></script>
+  <script src="libraries/p5.sound.min.js"></script>
+</head>
+
+<body>
+
+    <div class="menu-grid">
+
+
+      <div class="animation-window">
+        <script src="src/render.js"></script>
+      </div>
+
+        <ul class="menu-list">
+
+          <li>
+            <div id="time">
+             
+              <div class="timer-grid">
+
+                <span class="digit-ms" id="ms">
+                  00</span> 
+                  <span class="colon1">:</span>
+               <span  class="digit-mm" id="mm">
+                  00</span>
+                  <span class="colon2">:</span>
+                <span  class="digit-ss" id="ss">
+                    00</span>
+               
+              </div>
+
+            </div>
+          </li>
+
+          <li>
+          
+            <div class="counters">
+              <span class="gap-msg">GAP</span>
+              <span id="gap-counter">
+                00</span>
+            
+              <span class="swap-msg">SWAP</span>
+              <span id="swap-counter">
+                00</span>
+            
+              <span class="compare-msg">COMP</span>
+              <span id="comparison-counter">
+                00</span>
+            </div>
+        
+          <li>
+            <div class="rangeSlider">
+              <div>
+                <span class="counter" id="speedValue">0</span>
+                <span class="stringX">x</span>
+                <span class="sliderLabel">SPEED</span>
+              </div>
+              <input type="range" min="1" max="100" value="1" id="speedRange" class="slider">            
+            </div>
+            <div class="rangeSlider">
+            <div>
+              <span class="counter" id="numElements">0</span>
+              <span class="sliderLabel">BARS</span>
+            </div>
+            <input type="range" min="12" max="512" value="1" id="elsRange" class="slider">            
+          </div>
+        
+           <div class="operation-btns">
+            <button id="play-btn" class="play-button" >
+              <!-- link img -->
+               <img src="images/play-128.ico" alt="play" width="50" height="50">
+             </button>
+             <button id="refresh-btn" class="refresh-button" >
+               <!-- link img -->
+                <img src="images/refresh-2-128.ico" alt="play" width="50" height="50">
+              </button>
+           </div>
+          </li>
+          
+        </ul>
+        
+      </div>
+ 
+
+    </div>
+
+
+
+</body>
+
+</html>
+
+

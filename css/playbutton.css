@@ -1,0 +1,52 @@
+.play-button {
+    cursor: pointer;
+    font-size: 1rem;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+    /*apply background colour to all buttons that is slighly see through*/
+    background-color: rgba(255, 255, 255, 0.367);
+    transition: all 0.3s ease-in-out;
+    /* color: rgba(255, 255, 255, 0); */
+    padding-left: 87px;
+    padding-right: 80px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* move play button to bottom of the screen */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 200px;
+    height: 70px;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    border-radius: 15px;
+  }
+  
+  .play-button:hover {
+    transform: scale(1.1);
+    background-color: #8cff00e6;
+    box-shadow: none;
+    color: black;
+  }
+
+  /* add click effect to play-btn after it has been clicked */
+  .play-button:active {
+    transform: scale(0.9);
+    background-color: rgba(140, 255, 0, 0.9);
+    box-shadow: none;
+    color: black;
+  }
+
+
+
+
+
+  /* change img size in play button */
+    .play-button img {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+        margin-top: 8px;
+    }
